@@ -144,11 +144,11 @@ img {
   padding-bottom: 24px;
 }
 
-.logo-header {
+.logo__dark {
   color: var(--logo-txt-cl);
 }
 
-.logo-footer {
+.logo__light {
   color: var(--light-txt-cl);
 }
 
