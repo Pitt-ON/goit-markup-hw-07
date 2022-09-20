@@ -624,18 +624,20 @@ img {
   margin-bottom: 16px;
 }
 
-.team-list-icon {
+/* Socials */
+
+.socials {
   display: flex;
   justify-content: center;
   gap: 10px;
 }
 
-.team-item-icon {
+.socials__item {
   width: 44px;
   height: 44px;
 }
 
-.team-social-link {
+.socials__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -643,18 +645,28 @@ img {
   width: 100%;
   height: 100%;
   border-radius: 50%;
+}
+
+.socials__link--color {
   color: var(--icon-cl);
   background-color: var(--basic-bg-cl);  
 
   transition: color var(--animation), background-color var(--animation);
 }
 
-.team-social-icon {
+.socials__link-footer--color {
+  color: var(--light-txt-cl);
+  background-color: #ffffff1a;  
+
+  transition: background-color var(--animation);
+}
+
+.socials__icon {
   fill: currentColor;
 }
 
-.team-social-link:hover,
-.team-social-link:focus {
+.socials__link:hover,
+.socials__link:focus {
   color: var(--light-txt-cl);
   background-color: var(--accent-bg-cl);
 }
@@ -763,13 +775,13 @@ img {
   color: var(--accent-txt-cl);
 }
 
-.footer-social {
+.footer__social {
   min-width: 206px;
   align-items: center;
   margin-right: 93px;
 }
 
-.footer-title {
+.footer__title {
   display: block;
   margin-bottom: 20px;
   font-size: 14px;
@@ -777,40 +789,6 @@ img {
   letter-spacing: 0.03em;
   color: var(--light-txt-cl);
   text-transform: uppercase;
-}
-
-.footer-list-icon {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-}
-
-.footer-item-icon {
-  width: 44px;
-  height: 44px;
-}
-
-.footer-social-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: none;
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  color: var(--light-txt-cl);
-  background-color: #ffffff1a;  
-
-  transition: background-color var(--animation);
-}
-
-.footer-social-icon {
-  fill: currentColor;
-}
-
-.footer-social-link:hover,
-.footer-social-link:focus {
-  background-color: var(--accent-bg-cl);
 }
 
 /* Форма підписки footer*/
