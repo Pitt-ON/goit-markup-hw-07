@@ -118,7 +118,7 @@ img {
 
 /* Header */
 
-.page-header {
+.header {
   border-bottom: var(--header-brd-cl);
 }
 
@@ -154,13 +154,13 @@ img {
 
 /* header nav */
 
-.header-nav {
+.nav__list {
   display: flex;
   align-items: center;
   gap: 50px;
 }
 
-.header-nav-link {
+.nav__link {
   position: relative;
   display: block;
   padding-top: 32px;
@@ -174,8 +174,8 @@ img {
   transition: color var(--animation);
 }
 
-.header-nav-link:hover,
-.header-nav-link:focus {
+.nav__link:hover,
+.nav__link:focus {
   color: var(--accent-txt-cl);
 }
 
