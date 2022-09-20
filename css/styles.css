@@ -673,7 +673,7 @@ img {
 
 /* Clients */
 
-.clients-title {
+.clients__title {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
@@ -683,17 +683,18 @@ img {
   color: var(--basic-txt-cl);
 }
 
-.client-list {
+.clients__list {
   display: flex;
   justify-content: center;
 }
 
-.clients-item {
+.clients__item {
   width: 170px;
   height: 92px;
+  --items: 6;
 }
 
-.clients-link {
+.clients__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -707,18 +708,14 @@ img {
   transition: color var(--animation), border-color var(--animation);
 }
 
-.clients-icon {
+.clients__icon {
   fill: currentColor;
 }
 
-.clients-link:hover,
-.clients-link:focus {
+.clients__link:hover,
+.clients__link:focus {
   color: var(--accent-txt-cl);
   border-color: var(--accent-bg-cl);
-}
-
-.clients-item {
-  --items: 6;
 }
 
 /* Footer */
