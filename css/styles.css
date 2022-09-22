@@ -1,9 +1,9 @@
-:root {
-  /* Fonts */
+/* :root {
+  
   --basic-font: 'Roboto', sans-serif;
   --secondary-font: 'Raleway', sans-serif;
 
-  /* Text colors */
+  
   --basic-txt-cl: #212121;
   --secondary-txt-cl: #757575;
   --light-txt-cl: #ffffff;
@@ -11,7 +11,7 @@
   --logo-txt-cl: #000000;
   --icon-cl: #afb1b8;
 
-  /* Background colors */
+  
   --basic-bg-cl: #ffffff;
   --hdr-ftr-bg-cl: #2f303a;
   --overline-bg-cl: #c4c4c4;
@@ -19,22 +19,24 @@
   --team-bg-cl: #f5f4fa;
   --accent-bg-cl: #2196f3;
 
-  /* Others */
+  
   --header-brd-cl: 1px solid #ececec;
   --portfolio-brd-cl: 1px solid #eeeeee;
   --indent: 30px;
   --items: 3;
 
   --animation: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-body {
+/* Base styles */
+
+/* body {
   background-color: var(--basic-bg-cl);
   color: var(--basic-txt-cl);
   font-family: var(--basic-font);
-}
+} */
 
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -45,9 +47,9 @@ body {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 
-.btn {
+/* .btn {
   min-height: 50px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -58,13 +60,12 @@ body {
   line-height: calc(30 / 16);
   letter-spacing: 0.06em;
   color: var(--light-txt-cl);
-}
+} */
 
 /* Reset */
 
-.link {
+/* .link {
   text-decoration: none;
-  /* outline: none; */
   color: currentColor;
 }
 
@@ -72,9 +73,9 @@ body {
   list-style: none;
   margin: 0;
   padding: 0;
-}
+} */
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -88,25 +89,25 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
-}
+} */
 
-.container {
+/* .container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  /* outline: 1px solid red; */
-}
+  outline: 1px solid red;
+} */
 
-.section {
+/* .section {
   padding-top: 94px;
   padding-bottom: 94px;
-}
+} */
 
-/* Card set */
+/* Card-set */
 
-.card-set {
+/* .card-set {
   display: flex;
   flex-wrap: wrap;
   gap: var(--indent);
@@ -114,52 +115,52 @@ img {
 
 .card-set-item {
   flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
-}
+} */
 
 /* Header */
 
-.header {
+/* .header {
   border-bottom: var(--header-brd-cl);
 }
 
 .header__container {
   display: flex;
   align-items: center;
-}
+} */
 
 /* Logo */
 
-.logo {
+/* .logo {
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
   line-height: calc(31 / 26);
   letter-spacing: 0.03em;
   color: var(--accent-txt-cl);
-}
+} */
 
-.header__logo {
+/* .header__logo {
   margin-right: 93px;
   padding-top: 24px;
   padding-bottom: 24px;
-}
+} */
 
-.footer__logo {
+/* .footer__logo {
   display: block;
   margin-bottom: 20px;
-}
+} */
 
-.logo__dark {
+/* .logo__dark {
   color: var(--logo-txt-cl);
 }
 
 .logo__light {
   color: var(--light-txt-cl);
-}
+} */
 
 /* header nav */
 
-.nav__list {
+/* .nav__list {
   display: flex;
   align-items: center;
   gap: 50px;
@@ -200,9 +201,9 @@ img {
   background-color: var(--accent-bg-cl);
   border-radius: 2px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-}
+} */
 
-.header-contacts {
+/* .header-contacts {
   display: flex;
   margin-left: auto;
 }
@@ -236,15 +237,15 @@ img {
 .header-contacts-tel:hover,
 .header-contacts-tel:focus {
   color: var(--accent-txt-cl);
-}
+} */
 
-.mail-icon {
+/* .mail-icon {
   fill: currentColor;
-}
+} */
 
 /* Head */
 
-.hero {
+/* .hero {
   background: var(--hdr-ftr-bg-cl);
   text-align: center;
   padding-top: 200px;
@@ -285,11 +286,11 @@ img {
 .hero__btn:hover,
 .hero__btn:focus {
   background-color: var(--accent-hdr-cl);
-}
+} */
 
 /* Модальне вікно */
 
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -348,11 +349,11 @@ img {
 .modal-btn-closed:hover,
 .modal-btn-closed:focus {
   fill: var(--accent-bg-cl);
-}
+} */
 
 /* Register form */
 
-.register-form-title {
+/* .register-form-title {
   display: block;
   text-align: center;
   font-size: 20px;
@@ -499,11 +500,11 @@ img {
 .register-form-button:hover,
 .register-form-button:focus {
   background-color: var(--accent-hdr-cl);
-}
+} */
 
 /* Features */
 
-.features__list {
+/* .features__list {
   --items: 4;
 }
 
@@ -532,11 +533,11 @@ img {
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   color: var(--secondary-txt-cl);
-}
+} */
 
 /* Services */
 
-.services {
+/* .services {
   padding-bottom: 94px;
 }
 
@@ -573,11 +574,11 @@ img {
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.03em;
-}
+} */
 
 /* Team */
 
-.team {
+/* .team {
   background: var(--team-bg-cl);
 }
 
@@ -622,11 +623,11 @@ img {
   letter-spacing: 0.03em;
   color: var(--secondary-txt-cl);
   margin-bottom: 16px;
-}
+} */
 
 /* Socials */
 
-.socials {
+/* .socials {
   display: flex;
   justify-content: center;
   gap: 10px;
@@ -649,14 +650,14 @@ img {
 
 .socials__link--color {
   color: var(--icon-cl);
-  background-color: var(--basic-bg-cl);  
+  background-color: var(--basic-bg-cl);
 
   transition: color var(--animation), background-color var(--animation);
 }
 
 .socials__link-footer--color {
   color: var(--light-txt-cl);
-  background-color: #ffffff1a;  
+  background-color: #ffffff1a;
 
   transition: background-color var(--animation);
 }
@@ -669,11 +670,11 @@ img {
 .socials__link:focus {
   color: var(--light-txt-cl);
   background-color: var(--accent-bg-cl);
-}
+} */
 
 /* Clients */
 
-.clients__title {
+/* .clients__title {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
@@ -716,11 +717,11 @@ img {
 .clients__link:focus {
   color: var(--accent-txt-cl);
   border-color: var(--accent-bg-cl);
-}
+} */
 
 /* Footer */
 
-.page-footer {
+/* .page-footer {
   background: var(--hdr-ftr-bg-cl);
   padding-top: 60px;
   padding-bottom: 60px;
@@ -786,11 +787,11 @@ img {
   letter-spacing: 0.03em;
   color: var(--light-txt-cl);
   text-transform: uppercase;
-}
+} */
 
 /* Форма підписки footer*/
 
-.footer-email-input {
+/* .footer-email-input {
   display: flex;
 }
 
@@ -843,7 +844,7 @@ img {
 .footer-input-button:hover,
 .footer-input-button:focus {
   background-color: var(--accent-hdr-cl);
-}
+} */
 
 /* Portfolio.html */
 
