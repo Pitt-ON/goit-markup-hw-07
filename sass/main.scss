@@ -1,27 +1,11 @@
 // utils styles
-@import './utils/vars';
-@import './utils/visually-hidden';
+@import './utils/utils';
 
 // base styles
-@import './base/reset';
 @import './base/base';
-@import './base/container';
-@import './base/card-set';
 
 // layout styles
-@import './layouts/header';
-@import './layouts/navigation';
-@import './layouts/hero';
-@import './layouts/forms';
-@import './layouts/features';
-@import './layouts/services';
-@import './layouts/team';
-@import './layouts/clients';
-@import './layouts/footer';
+@import './layouts/layouts';
 
 // components styles
-@import './components/btn';
-@import './components/logo';
-@import './components/modal';
-@import './components/socials';
-@import './components/subscription';
+@import './components/component';
