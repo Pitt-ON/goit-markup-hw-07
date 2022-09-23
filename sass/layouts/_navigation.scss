@@ -16,11 +16,12 @@
     color: var(--basic-txt-cl);
 
     transition: color var(--animation);
-}
 
-.nav__link:hover,
-.nav__link:focus {
+
+&:hover,
+&:focus {
     color: var(--accent-txt-cl);
+}
 }
 
 .nav__link--current {

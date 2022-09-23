@@ -22,18 +22,19 @@
     color: rgba(255, 255, 255, 0.6);
 
     transition: border-color var(--animation);
-}
 
-.footer-input-mail:hover,
-.footer-input-mail:focus {
+
+&:hover,
+&:focus {
     border-color: var(--accent-bg-cl);
 }
 
-.footer-input-mail::placeholder {
+&::placeholder {
     font-size: 16px;
     line-height: calc(20 / 16);
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+}
 }
 
 .footer-input-button {
@@ -46,9 +47,10 @@
     background-color: var(--accent-bg-cl);
 
     transition: background-color var(--animation);
-}
 
-.footer-input-button:hover,
-.footer-input-button:focus {
+
+&:hover,
+&:focus {
     background-color: var(--accent-hdr-cl);
+}
 }

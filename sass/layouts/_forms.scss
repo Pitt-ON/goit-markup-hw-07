@@ -36,11 +36,12 @@
     outline: transparent;
 
     transition: border-color var(--animation);
-}
 
-.register-form-input:hover,
-.register-form-input:focus {
+
+&:hover,
+&:focus {
     border-color: var(--accent-bg-cl);
+}
 }
 
 .register-form-icon {
@@ -72,18 +73,19 @@
     letter-spacing: 0.01em;
 
     transition: border-color var(--animation);
-}
 
-.register-form-message:hover,
-.register-form-message:focus {
+
+&:hover,
+&:focus {
     border-color: var(--accent-bg-cl);
 }
 
-.register-form-message::placeholder {
+&::placeholder {
     font-size: 12px;
     line-height: calc(14 / 12);
     letter-spacing: 0.01em;
     color: rgba(117, 117, 117, 0.5);
+}
 }
 
 .register-form-agreement {

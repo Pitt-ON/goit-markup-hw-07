@@ -20,11 +20,9 @@
   letter-spacing: 0.03em;
   color: var(--accent-txt-cl);
 }
-
 .logo__dark {
   color: var(--logo-txt-cl);
 }
-
 .logo__light {
   color: var(--light-txt-cl);
 }
@@ -85,9 +83,7 @@
   -webkit-transition: fill var(--animation);
   transition: fill var(--animation);
 }
-
-.modal-btn-closed:hover,
-.modal-btn-closed:focus {
+.modal-btn-closed:hover, .modal-btn-closed:focus {
   fill: var(--accent-bg-cl);
 }
 
@@ -100,12 +96,10 @@
           justify-content: center;
   gap: 10px;
 }
-
 .socials__item {
   width: 44px;
   height: 44px;
 }
-
 .socials__link {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -121,27 +115,22 @@
   height: 100%;
   border-radius: 50%;
 }
-
 .socials__link--color {
   color: var(--icon-cl);
   background-color: var(--basic-bg-cl);
   -webkit-transition: color var(--animation), background-color var(--animation);
   transition: color var(--animation), background-color var(--animation);
 }
-
 .socials__link-footer--color {
   color: var(--light-txt-cl);
   background-color: rgba(255, 255, 255, 0.1019607843);
   -webkit-transition: background-color var(--animation);
   transition: background-color var(--animation);
 }
-
 .socials__icon {
   fill: currentColor;
 }
-
-.socials__link:hover,
-.socials__link:focus {
+.socials__link:hover, .socials__link:focus {
   color: var(--light-txt-cl);
   background-color: var(--accent-bg-cl);
 }
@@ -171,40 +160,33 @@
   -webkit-transition: border-color var(--animation);
   transition: border-color var(--animation);
 }
-
-.footer-input-mail:hover,
-.footer-input-mail:focus {
+.footer-input-mail:hover, .footer-input-mail:focus {
   border-color: var(--accent-bg-cl);
 }
-
 .footer-input-mail::-webkit-input-placeholder {
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-
 .footer-input-mail::-moz-placeholder {
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-
 .footer-input-mail:-ms-input-placeholder {
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-
 .footer-input-mail::-ms-input-placeholder {
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-
 .footer-input-mail::placeholder {
   font-size: 16px;
   line-height: 1.25;
@@ -228,9 +210,7 @@
   -webkit-transition: background-color var(--animation);
   transition: background-color var(--animation);
 }
-
-.footer-input-button:hover,
-.footer-input-button:focus {
+.footer-input-button:hover, .footer-input-button:focus {
   background-color: var(--accent-hdr-cl);
 }
 

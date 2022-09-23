@@ -88,9 +88,7 @@
   -webkit-transition: color var(--animation);
   transition: color var(--animation);
 }
-
-.nav__link:hover,
-.nav__link:focus {
+.nav__link:hover, .nav__link:focus {
   color: var(--accent-txt-cl);
 }
 
@@ -151,9 +149,7 @@
   -webkit-transition: background-color var(--animation);
   transition: background-color var(--animation);
 }
-
-.hero__btn:hover,
-.hero__btn:focus {
+.hero__btn:hover, .hero__btn:focus {
   background-color: var(--accent-hdr-cl);
 }
 
@@ -196,9 +192,7 @@
   -webkit-transition: border-color var(--animation);
   transition: border-color var(--animation);
 }
-
-.register-form-input:hover,
-.register-form-input:focus {
+.register-form-input:hover, .register-form-input:focus {
   border-color: var(--accent-bg-cl);
 }
 
@@ -230,40 +224,33 @@
   -webkit-transition: border-color var(--animation);
   transition: border-color var(--animation);
 }
-
-.register-form-message:hover,
-.register-form-message:focus {
+.register-form-message:hover, .register-form-message:focus {
   border-color: var(--accent-bg-cl);
 }
-
 .register-form-message::-webkit-input-placeholder {
   font-size: 12px;
   line-height: 1.1666666667;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
-
 .register-form-message::-moz-placeholder {
   font-size: 12px;
   line-height: 1.1666666667;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
-
 .register-form-message:-ms-input-placeholder {
   font-size: 12px;
   line-height: 1.1666666667;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
-
 .register-form-message::-ms-input-placeholder {
   font-size: 12px;
   line-height: 1.1666666667;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
-
 .register-form-message::placeholder {
   font-size: 12px;
   line-height: 1.1666666667;
@@ -512,15 +499,13 @@
   -webkit-transition: color var(--animation), border-color var(--animation);
   transition: color var(--animation), border-color var(--animation);
 }
+.clients__link:hover, .clients__link:focus {
+  color: var(--accent-txt-cl);
+  border-color: var(--accent-bg-cl);
+}
 
 .clients__icon {
   fill: currentColor;
-}
-
-.clients__link:hover,
-.clients__link:focus {
-  color: var(--accent-txt-cl);
-  border-color: var(--accent-bg-cl);
 }
 
 .page-footer {

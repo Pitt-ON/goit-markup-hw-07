@@ -52,9 +52,9 @@
     cursor: pointer;
 
     transition: fill var(--animation);
-}
 
-.modal-btn-closed:hover,
-.modal-btn-closed:focus {
+&:hover,
+&:focus {
     fill: var(--accent-bg-cl);
+}
 }
