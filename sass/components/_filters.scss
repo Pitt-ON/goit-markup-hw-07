@@ -1,32 +1,31 @@
 .filters__list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    justify-content: center;
-    margin-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: 50px;
 }
 
 .filters__btn {
-    padding: 6px 22px;
-    font-family: inherit;
-    background-color: var(--team-bg-cl);
-    border-radius: 4px;
-    border: 0;
-    cursor: pointer;
+  padding: 6px 22px;
+  font-family: inherit;
+  background-color: var(--team-bg-cl);
+  border-radius: 4px;
+  border: 0;
+  cursor: pointer;
 
-    font-weight: 500;
-    font-size: 16px;
-    line-height: calc(26 / 16);
-    letter-spacing: 0.03em;
-    color: var(--basic-txt-cl);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  letter-spacing: 0.03em;
+  color: var(--basic-txt-cl);
 
-    transition: background-color var(--animation), color var(--animation), box-shadow var(--animation);
+  transition: background-color var(--animation), color var(--animation), box-shadow var(--animation);
 
-
-&__btn:hover,
-&__btn:focus {
+  &:hover,
+  &:focus {
     background-color: var(--accent-bg-cl);
     color: var(--light-txt-cl);
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 3px 1px rgba(0, 0, 0, 0.1);
-}
+  }
 }
