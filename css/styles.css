@@ -199,17 +199,18 @@ img {
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+/* Header-contacts */
+
 .header-contacts {
   display: flex;
   margin-left: auto;
 }
 
-.header-contacts-item {
+.header-contacts__item {
   margin-right: 50px;
 }
 
-.header-contacts-mail,
-.header-contacts-tel {
+.header-contacts__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -225,17 +226,12 @@ img {
   transition: color var(--animation);
 }
 
-.header-contacts-mail:hover,
-.header-contacts-mail:focus {
+.header-contacts__link:hover,
+.header-contacts__link:focus {
   color: var(--accent-txt-cl);
 }
 
-.header-contacts-tel:hover,
-.header-contacts-tel:focus {
-  color: var(--accent-txt-cl);
-}
-
-.mail-icon {
+.header-contacts__icon {
   fill: currentColor;
 }
 
@@ -320,7 +316,7 @@ img {
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
 }
 
-.modal-btn-closed {
+.modal__btn-closed {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -342,14 +338,14 @@ img {
   transition: fill var(--animation);
 }
 
-.modal-btn-closed:hover,
-.modal-btn-closed:focus {
+.modal__btn-closed:hover,
+.modal__btn-closed:focus {
   fill: var(--accent-bg-cl);
 }
 
 /* Register form */
 
-.register-form-title {
+.register-form__title {
   display: block;
   text-align: center;
   font-size: 20px;
@@ -357,17 +353,17 @@ img {
   margin-bottom: 12px;
 }
 
-.register-form-group {
+.register-form__group {
   margin-bottom: 20px;
 }
 
-.register-form-field {
+.register-form__field {
   position: relative;
   display: block;
   margin-bottom: 10px;
 }
 
-.register-form-lable {
+.register-form__lable {
   display: block;
   margin-bottom: 4px;
   font-size: 12px;
@@ -376,7 +372,7 @@ img {
   color: var(--secondary-txt-cl);
 }
 
-.register-form-input {
+.register-form__input {
   width: 100%;
   height: 40px;
   padding-left: 42px;
@@ -389,12 +385,12 @@ img {
   transition: border-color var(--animation);
 }
 
-.register-form-input:hover,
-.register-form-input:focus {
+.register-form__input:hover,
+.register-form__input:focus {
   border-color: var(--accent-bg-cl);
 }
 
-.register-form-icon {
+.register-form__icon {
   position: absolute;
   top: 50%;
   left: 12px;
@@ -402,12 +398,12 @@ img {
   transition: fill var(--animation);
 }
 
-.register-form-input:hover + .register-form-icon,
-.register-form-input:focus + .register-form-icon {
+.register-form__input:hover + .register-form__icon,
+.register-form__input:focus + .register-form__icon {
   fill: var(--accent-bg-cl);
 }
 
-.register-form-message {
+.register-form__message {
   width: 100%;
   height: 120px;
   display: block;
@@ -425,19 +421,19 @@ img {
   transition: border-color var(--animation);
 }
 
-.register-form-message:hover,
-.register-form-message:focus {
+.register-form__message:hover,
+.register-form__message:focus {
   border-color: var(--accent-bg-cl);
 }
 
-.register-form-message::placeholder {
+.register-form__message::placeholder {
   font-size: 12px;
   line-height: calc(14 / 12);
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
 
-.register-form-agreement {
+.register-form__agreement {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -451,7 +447,7 @@ img {
   transition: opasity var(--animation);
 }
 
-.register-form-checkbox:checked + .register-form-icons .icon-checked {
+.register-form__checkbox:checked + .register-form-icons .icon-checked {
   opacity: 1;
 }
 
@@ -460,18 +456,18 @@ img {
   transition: opasity var(--animation);
 }
 
-.register-form-checkbox:checked + .register-form-icons .icon-unchecked {
+.register-form__checkbox:checked + .register-form-icons .icon-unchecked {
   opacity: 0;
 }
 
-.register-form-checkbox:focus + .register-form-icons {
+.register-form__checkbox:focus + .register-form-icons {
   fill: var(--accent-bg-cl);
   outline: 2px solid black;
   outline-offset: 1px;
   border-radius: 1px;
 }
 
-.register-form-desc {
+.register-form__desc {
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
@@ -480,11 +476,11 @@ img {
   user-select: none;
 }
 
-.register-form-link {
+.register-form__link {
   color: var(--accent-txt-cl);
 }
 
-.register-form-button {
+.register-form__btn {
   display: block;
   margin: 0 auto;
   width: 200px;
@@ -493,8 +489,8 @@ img {
   transition: background-color var(--animation);
 }
 
-.register-form-button:hover,
-.register-form-button:focus {
+.register-form__btn:hover,
+.register-form__btn:focus {
   background-color: var(--accent-hdr-cl);
 }
 
