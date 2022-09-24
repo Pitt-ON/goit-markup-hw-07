@@ -673,7 +673,25 @@ body {
   color: var(--accent-txt-cl);
 }
 
-.portfolio-link {
+.join {
+  min-width: 206px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 93px;
+}
+
+.join__title {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 1.1428571429;
+  letter-spacing: 0.03em;
+  color: var(--light-txt-cl);
+  text-transform: uppercase;
+}
+
+.product__link {
   display: block;
   -webkit-transition: -webkit-box-shadow var(--animation);
   transition: -webkit-box-shadow var(--animation);
@@ -681,18 +699,18 @@ body {
   transition: box-shadow var(--animation), -webkit-box-shadow var(--animation);
 }
 
-.portfolio-link:hover,
-.portfolio-link:focus {
+.product__link:hover,
+.product__link:focus {
   -webkit-box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
           box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
 }
 
-.portfolio-thumb {
+.product__wrap {
   position: relative;
   overflow: hidden;
 }
 
-.portfolio-overlay {
+.product__overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -717,27 +735,27 @@ body {
   transition: transform var(--animation), -webkit-transform var(--animation);
 }
 
-.portfolio-link:hover .portfolio-overlay,
-.portfolio-link:focus .portfolio-overlay {
+.product__link:hover .product__overlay,
+.product__link:focus .product__overlay {
   -webkit-transform: translateY(0);
           transform: translateY(0);
 }
 
-.overlay-text {
+.product__features {
   font-size: 18px;
   line-height: 1.5555555556;
   letter-spacing: 0.03em;
   color: var(--light-txt-cl);
 }
 
-.cont-portfolio {
+.product__desc {
   padding: 20px 24px;
   border-left: var(--portfolio-brd-cl);
   border-right: var(--portfolio-brd-cl);
   border-bottom: var(--portfolio-brd-cl);
 }
 
-.portfolio-title {
+.product__name {
   margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
@@ -746,7 +764,7 @@ body {
   color: var(--basic-txt-cl);
 }
 
-.portfolio-text {
+.product__filter {
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.03em;
