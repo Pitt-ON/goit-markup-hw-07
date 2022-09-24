@@ -36,24 +36,27 @@
                     </li>
                     <li class="nav__item">
                         <a class="nav__link nav__link--current link" href="./portfolio.html">Портфоліо</a>
-                    </li>
-                    <li class="nav__item">
+                    </li class="nav__item">
+                    <li>
                         <a class="nav__link link" href="">Контакти</a>
                     </li>
                 </ul>
             </nav>
             <!-- Контакти -->
             <ul class="header-contacts list">
-                <li class="header-contacts-item">
-                    <a class="header-contacts-mail link" href="mailto:info@devstudio.com"><svg class="mail-icon"
-                            width="16" height="12">
+                <li class="header-contacts__item">
+                    <a class="header-contacts__link link" href="mailto:info@devstudio.com">
+                        <svg class="header-contacts__icon" width="16" height="12">
                             <use href="./images/icons.svg#envelope"></use>
-                        </svg>info@devstudio.com</a>
+                        </svg>
+                        info@devstudio.com</a>
                 </li>
-                <li><a class="header-contacts-tel link" href="tel:+380961111111"><svg class="mail-icon" width="10"
-                            height="16">
+                <li>
+                    <a class="header-contacts__link link" href="tel:+380961111111">
+                        <svg class="header-contacts__icon" width="10" height="16">
                             <use href="./images/icons.svg#smartphone"></use>
-                        </svg>+38 096 111 11 11</a>
+                        </svg>
+                        +38 096 111 11 11</a>
                 </li>
             </ul>
         </div>
@@ -238,22 +241,29 @@
         </section>
     </main>
     <!-- Футер -->
-    <footer class="page-footer">
-        <div class="container footer-container">
-            <div class="foofer-address">
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="foofer__wrap">
                 <a class="logo footer__logo link" href="./index.html" target="_blank" rel="noreferrer noopener"
                     lang="en">Web<span class="logo__light">Studio</span></a>
+
+                <!-- Footer-contacts -->
                 <address class="footer-contacts">
-                    <p class="footer-contacts-text">м. Київ, пр-т Лесі Українки, 26</p>
-                    <ul class="footer-contacts-list list">
-                        <li class="footer-contacts-item"><a class="footer-contacts-mail link"
-                                href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                        <li><a class="footer-contacts-tel link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                    <p class="footer-contacts__text">м. Київ, пр-т Лесі Українки, 26</p>
+                    <ul class="footer-contacts__list list">
+                        <li class="footer-contacts__item">
+                            <a class="footer-contacts__link link"
+                                href="mailto:info@devstudio.com">info@devstudio.com</a>
+                        </li>
+                        <li><a class="footer-contacts__link link" href="tel:+380961111111">+38 096 111 11 11</a>
+                        </li>
                     </ul>
                 </address>
             </div>
-            <div class="footer__social">
-                <strong class="footer__title">приєднуйтесь</strong>
+
+            <!-- Join -->
+            <div class="join">
+                <strong class="join__title">приєднуйтесь</strong>
                 <ul class="socials list">
                     <li class="socials__item">
                         <a class="socials__link socials__link-footer--color link" href="https://instagram.com"
@@ -288,16 +298,19 @@
                     </li>
                 </ul>
             </div>
-            <div class="footer-input">
-                <strong class="footer__title">підпишіться на розсилку</strong>
 
-                <form class="footer-email-input" name="footer-input">
-                    <label class="footer-label">
-                        <input class="footer-input-mail" type="email" name="footer-mail" placeholder="E-mail" required>
+            <!-- Subscription -->
+            <div class="subscription">
+                <strong class="subscription__title">підпишіться на розсилку</strong>
+
+                <form class="subscription__form" name="footer-input">
+                    <label class="subscription__label">
+                        <input class="subscription__input" type="email" name="footer-mail" placeholder="E-mail"
+                            required>
                     </label>
 
-                    <button class="btn footer-input-button" type="submit">Підписатися
-                        <svg class="mail-icon" width="24" height="24">
+                    <button class="btn subscription__btn" type="submit">Підписатися
+                        <svg class="subscription__icon" width="24" height="24">
                             <use href="./images/icons.svg#icon-send"></use>
                         </svg>
                     </button>
