@@ -2,9 +2,9 @@
     min-width: 206px;
     align-items: center;
     margin-right: 93px;
-}
 
-.join__title {
+
+&__title {
     display: block;
     margin-bottom: 20px;
     font-size: 14px;
@@ -12,4 +12,5 @@
     letter-spacing: 0.03em;
     color: var(--light-txt-cl);
     text-transform: uppercase;
+}
 }

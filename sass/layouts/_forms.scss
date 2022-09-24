@@ -1,6 +1,6 @@
-.register-form {}
+.register-form {
 
-.register-form__title {
+&__title {
     display: block;
     text-align: center;
     font-size: 20px;
@@ -8,17 +8,17 @@
     margin-bottom: 12px;
 }
 
-.register-form__group {
+&__group {
     margin-bottom: 20px;
 }
 
-.register-form__field {
+&__field {
     position: relative;
     display: block;
     margin-bottom: 10px;
 }
 
-.register-form__lable {
+&__lable {
     display: block;
     margin-bottom: 4px;
     font-size: 12px;
@@ -27,7 +27,7 @@
     color: var(--secondary-txt-cl);
 }
 
-.register-form__input {
+&__input {
     width: 100%;
     height: 40px;
     padding-left: 42px;
@@ -40,12 +40,12 @@
     transition: border-color var(--animation);
 }
 
-.register-form__input:hover,
-.register-form__input:focus {
+&__input:hover,
+&__input:focus {
     border-color: var(--accent-bg-cl);
 }
 
-.register-form__icon {
+&__icon {
     position: absolute;
     top: 50%;
     left: 12px;
@@ -53,12 +53,12 @@
     transition: fill var(--animation);
 }
 
-.register-form__input:hover+.register-form__icon,
-.register-form__input:focus+.register-form__icon {
+&__input:hover+&__icon,
+&__input:focus+&__icon {
     fill: var(--accent-bg-cl);
 }
 
-.register-form__message {
+&__message {
     width: 100%;
     height: 120px;
     display: block;
@@ -76,19 +76,19 @@
     transition: border-color var(--animation);
 }
 
-.register-form__message:hover,
-.register-form__message:focus {
+&__message:hover,
+&__message:focus {
     border-color: var(--accent-bg-cl);
 }
 
-.register-form__message::placeholder {
+&__message::placeholder {
     font-size: 12px;
     line-height: calc(14 / 12);
     letter-spacing: 0.01em;
     color: rgba(117, 117, 117, 0.5);
 }
 
-.register-form__agreement {
+&__agreement {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -97,32 +97,32 @@
     margin-bottom: 30px;
 }
 
-.register-form__checked {
+&__checked {
     opacity: 0;
     transition: opasity var(--animation);
 }
 
-.register-form__checkbox:checked+.register-form__check .register-form__checked {
+&__checkbox:checked+&__check &__checked {
     opacity: 1;
 }
 
-.register-form__unchecked {
+&__unchecked {
     opacity: 1;
     transition: opasity var(--animation);
 }
 
-.register-form__checkbox:checked+.register-form__check .register-form__unchecked {
+&__checkbox:checked+&__check &__unchecked {
     opacity: 0;
 }
 
-.register-form__checkbox:focus+.register-form__check {
+&__checkbox:focus+&__check {
     fill: var(--accent-bg-cl);
     outline: 2px solid black;
     outline-offset: 1px;
     border-radius: 1px;
 }
 
-.register-form__desc {
+&__desc {
     font-size: 14px;
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
@@ -131,11 +131,11 @@
     user-select: none;
 }
 
-.register-form__link {
+&__link {
     color: var(--accent-txt-cl);
 }
 
-.register-form__btn {
+&__btn {
     display: block;
     margin: 0 auto;
     width: 200px;
@@ -144,7 +144,8 @@
     transition: background-color var(--animation);
 }
 
-.register-form__btn:hover,
-.register-form__btn:focus {
+&__btn:hover,
+&__btn:focus {
     background-color: var(--accent-hdr-cl);
+}
 }

@@ -14,9 +14,9 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-}
 
-.hero__heading {
+
+&__heading {
     width: 700px;
     font-weight: 900;
     font-size: 44px;
@@ -29,14 +29,15 @@
     margin-right: auto;
 }
 
-.hero__btn {
+&__btn {
     width: 216px;
     background-color: var(--accent-bg-cl);
 
     transition: background-color var(--animation);
 }
 
-.hero__btn:hover,
-.hero__btn:focus {
+&__btn:hover,
+&__btn:focus {
     background-color: var(--accent-hdr-cl);
+}
 }

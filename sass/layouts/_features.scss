@@ -1,10 +1,10 @@
-.features {}
+.features {
 
-.features__list {
+&__list {
     --items: 4;
 }
 
-.features__wrap {
+&__wrap {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,7 +14,7 @@
     background-color: var(--team-bg-cl);
 }
 
-.features__title {
+&__title {
     margin-bottom: 10px;
     font-weight: 700;
     font-size: 14px;
@@ -24,9 +24,10 @@
     color: var(--basic-txt-cl);
 }
 
-.features__text {
+&__text {
     font-size: 14px;
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
     color: var(--secondary-txt-cl);
+}
 }

@@ -5,12 +5,13 @@
     line-height: calc(31 / 26);
     letter-spacing: 0.03em;
     color: var(--accent-txt-cl);
-}
 
-.logo__dark {
+
+&__dark {
     color: var(--logo-txt-cl);
 }
 
-.logo__light {
+&__light {
     color: var(--light-txt-cl);
+}
 }

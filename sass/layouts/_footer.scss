@@ -2,16 +2,17 @@
     background: var(--hdr-ftr-bg-cl);
     padding-top: 60px;
     padding-bottom: 60px;
-}
 
-.footer__logo {
+
+&__logo {
     display: block;
     margin-bottom: 20px;
 }
 
-.footer__container {
+&__container {
     display: flex;
     align-items: baseline;
+}
 }
 
 .foofer__wrap {

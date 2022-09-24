@@ -1,4 +1,6 @@
-.clients__title {
+.clients {
+
+&__title {
     margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
@@ -8,18 +10,18 @@
     color: var(--basic-txt-cl);
 }
 
-.clients__list {
+&__list {
     display: flex;
     justify-content: center;
 }
 
-.clients__item {
+&__item {
     width: 170px;
     height: 92px;
     --items: 6;
 }
 
-.clients__link {
+&__link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,12 +35,13 @@
     transition: color var(--animation), border-color var(--animation);
 }
 
-.clients__icon {
+&__icon {
     fill: currentColor;
 }
 
-.clients__link:hover,
-.clients__link:focus {
+&__link:hover,
+&__link:focus {
     color: var(--accent-txt-cl);
     border-color: var(--accent-bg-cl);
+}
 }

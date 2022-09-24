@@ -30,9 +30,9 @@
 
     border-radius: 4px;
     box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
-}
 
-.modal__btn-closed {
+
+&__btn-closed {
     position: absolute;
     top: 8px;
     right: 8px;
@@ -54,7 +54,8 @@
     transition: fill var(--animation);
 }
 
-.modal__btn-closed:hover,
-.modal__btn-closed:focus {
+&__btn-closed:hover,
+&__btn-closed:focus {
     fill: var(--accent-bg-cl);
+}
 }

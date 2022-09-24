@@ -1,8 +1,7 @@
 .services {
-    padding-bottom: 94px;
-}
+  padding-bottom: 94px;
 
-.services__title {
+  &__title {
     margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
@@ -10,13 +9,13 @@
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--basic-txt-cl);
-}
+  }
 
-.services__thumb {
+  &__thumb {
     position: relative;
-}
+  }
 
-.services__label {
+  &__label {
     position: absolute;
     display: flex;
     justify-content: center;
@@ -35,4 +34,5 @@
     font-size: 14px;
     line-height: calc(16 / 14);
     letter-spacing: 0.03em;
+  }
 }

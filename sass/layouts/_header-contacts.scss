@@ -1,13 +1,13 @@
 .header-contacts {
     display: flex;
     margin-left: auto;
-}
 
-.header-contacts__item {
+
+&__item {
     margin-right: 50px;
 }
 
-.header-contacts__link {
+&__link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,11 +23,12 @@
     transition: color var(--animation);
 }
 
-.header-contacts__link:hover,
-.header-contacts__link:focus {
+&__link:hover,
+&__link:focus {
     color: var(--accent-txt-cl);
 }
 
-.header-contacts__icon {
+&__icon {
     fill: currentColor;
+}
 }

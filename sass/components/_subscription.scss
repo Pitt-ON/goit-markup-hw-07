@@ -1,6 +1,6 @@
-.subscription {}
+.subscription {
 
-.subscription__title {
+&__title {
     display: block;
     margin-bottom: 20px;
     font-size: 14px;
@@ -10,15 +10,15 @@
     text-transform: uppercase;
 }
 
-.subscription__form {
+&__form {
     display: flex;
 }
 
-.subscription__lable {
+&__lable {
     display: block;
 }
 
-.subscription__input {
+&__input {
     display: inline-block;
     width: 358px;
     height: 50px;
@@ -36,19 +36,19 @@
     transition: border-color var(--animation);
 }
 
-.subscription__input:hover,
-.subscription__input:focus {
+&__input:hover,
+&__input:focus {
     border-color: var(--accent-bg-cl);
 }
 
-.subscription__input::placeholder {
+&__input::placeholder {
     font-size: 16px;
     line-height: calc(20 / 16);
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
 
-.subscription__btn {
+&__btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -60,11 +60,12 @@
     transition: background-color var(--animation);
 }
 
-.subscription__btn:hover,
-.subscription__btn:focus {
+&__btn:hover,
+&__btn:focus {
     background-color: var(--accent-hdr-cl);
 }
 
-.subscription__icon {
+&__icon {
     fill: currentColor;
+}
 }
