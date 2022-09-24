@@ -1,12 +1,24 @@
-.footer-email-input {
+.subscription {}
+
+.subscription__title {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.03em;
+    color: var(--light-txt-cl);
+    text-transform: uppercase;
+}
+
+.subscription__form {
     display: flex;
 }
 
-.footer-lable {
+.subscription__lable {
     display: block;
 }
 
-.footer-input-mail {
+.subscription__input {
     display: inline-block;
     width: 358px;
     height: 50px;
@@ -22,22 +34,21 @@
     color: rgba(255, 255, 255, 0.6);
 
     transition: border-color var(--animation);
+}
 
-
-&:hover,
-&:focus {
+.subscription__input:hover,
+.subscription__input:focus {
     border-color: var(--accent-bg-cl);
 }
 
-&::placeholder {
+.subscription__input::placeholder {
     font-size: 16px;
     line-height: calc(20 / 16);
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
-}
 
-.footer-input-button {
+.subscription__btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -47,10 +58,13 @@
     background-color: var(--accent-bg-cl);
 
     transition: background-color var(--animation);
+}
 
-
-&:hover,
-&:focus {
+.subscription__btn:hover,
+.subscription__btn:focus {
     background-color: var(--accent-hdr-cl);
 }
+
+.subscription__icon {
+    fill: currentColor;
 }

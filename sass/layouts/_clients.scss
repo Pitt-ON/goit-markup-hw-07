@@ -31,15 +31,14 @@
     outline: transparent;
 
     transition: color var(--animation), border-color var(--animation);
-
-
-&:hover,
-&:focus {
-    color: var(--accent-txt-cl);
-    border-color: var(--accent-bg-cl);
-}
 }
 
 .clients__icon {
     fill: currentColor;
+}
+
+.clients__link:hover,
+.clients__link:focus {
+    color: var(--accent-txt-cl);
+    border-color: var(--accent-bg-cl);
 }

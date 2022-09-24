@@ -1,20 +1,20 @@
-.portfolio-link {
+.product__link {
     display: block;
 
     transition: box-shadow var(--animation);
 }
 
-.portfolio-link:hover,
-.portfolio-link:focus {
+.product__link:hover,
+.product__link:focus {
     box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
 }
 
-.portfolio-thumb {
+.product__wrap {
     position: relative;
     overflow: hidden;
 }
 
-.portfolio-overlay {
+.product__overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -34,26 +34,26 @@
     transition: transform var(--animation);
 }
 
-.portfolio-link:hover .portfolio-overlay,
-.portfolio-link:focus .portfolio-overlay {
+.product__link:hover .product__overlay,
+.product__link:focus .product__overlay {
     transform: translateY(0);
 }
 
-.overlay-text {
+.product__features {
     font-size: 18px;
     line-height: calc(28 / 18);
     letter-spacing: 0.03em;
     color: var(--light-txt-cl);
 }
 
-.cont-portfolio {
+.product__desc {
     padding: 20px 24px;
     border-left: var(--portfolio-brd-cl);
     border-right: var(--portfolio-brd-cl);
     border-bottom: var(--portfolio-brd-cl);
 }
 
-.portfolio-title {
+.product__name {
     margin-bottom: 4px;
     font-weight: 700;
     font-size: 18px;
@@ -62,7 +62,7 @@
     color: var(--basic-txt-cl);
 }
 
-.portfolio-text {
+.product__filter {
     font-size: 16px;
     line-height: calc(30 / 16);
     letter-spacing: 0.03em;

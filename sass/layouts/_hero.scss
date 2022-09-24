@@ -34,10 +34,9 @@
     background-color: var(--accent-bg-cl);
 
     transition: background-color var(--animation);
-
-
-&:hover,
-&:focus {
-    background-color: var(--accent-hdr-cl);
 }
+
+.hero__btn:hover,
+.hero__btn:focus {
+    background-color: var(--accent-hdr-cl);
 }

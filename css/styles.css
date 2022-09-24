@@ -141,11 +141,6 @@ img {
   padding-bottom: 24px;
 }
 
-.footer__logo {
-  display: block;
-  margin-bottom: 20px;
-}
-
 .logo__dark {
   color: var(--logo-txt-cl);
 }
@@ -235,7 +230,7 @@ img {
   fill: currentColor;
 }
 
-/* Head */
+/* Hero */
 
 .hero {
   background: var(--hdr-ftr-bg-cl);
@@ -723,6 +718,11 @@ img {
   background: var(--hdr-ftr-bg-cl);
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.footer__logo {
+  display: block;
+  margin-bottom: 20px;
 }
 
 .footer__container {

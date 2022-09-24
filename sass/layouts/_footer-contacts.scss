@@ -1,0 +1,29 @@
+.footer-contacts {
+    font-style: normal;
+}
+
+.footer-contacts__text {
+    margin-bottom: 9px;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: var(--light-txt-cl);
+}
+
+.footer-contacts__item {
+    margin-bottom: 9px;
+}
+
+.footer-contacts__link {
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: hsla(0, 0%, 100%, 0.6);
+
+    transition: color var(--animation);
+}
+
+.footer-contacts__link:hover,
+.footer-contacts__link:focus {
+    color: var(--accent-txt-cl);
+}
