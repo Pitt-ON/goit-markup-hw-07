@@ -1,5 +1,5 @@
 .team {
-  background: var(--team-bg-cl);
+  @include section(94px, 94px, var(--team-bg-cl));
 
   &__title {
     margin-bottom: 50px;

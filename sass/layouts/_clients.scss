@@ -1,5 +1,5 @@
 .clients {
-  @include list(null, null, center, center);
+  @include section(94px, 94px, null);
 
   &__title {
     margin-bottom: 50px;
@@ -17,7 +17,7 @@
   }
 
   &__item {
-    @include item(5, var(--gap), 6);
+    // @include item(5, var(--gap), 6);
     width: 170px;
     height: 92px;
     --items: 6;

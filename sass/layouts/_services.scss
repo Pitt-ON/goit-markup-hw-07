@@ -1,5 +1,5 @@
 .services {
-  padding-bottom: 94px;
+  @include section(null, 94px, null);
 
   &__title {
     margin-bottom: 50px;

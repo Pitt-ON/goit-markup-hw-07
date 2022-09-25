@@ -1,45 +1,45 @@
 .socials {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 
-
-&__item {
+  &__item {
     width: 44px;
     height: 44px;
-}
+  }
 
-&__link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  &__link {
+    @include flex(flex, center, center);
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
     border: none;
     width: 100%;
     height: 100%;
     border-radius: 50%;
-}
+  }
 
-&__link--color {
+  &__link--color {
     color: var(--icon-cl);
     background-color: var(--basic-bg-cl);
 
     transition: color var(--animation), background-color var(--animation);
-}
+  }
 
-&__link-footer--color {
+  &__link-footer--color {
     color: var(--light-txt-cl);
     background-color: #ffffff1a;
 
     transition: background-color var(--animation);
-}
+  }
 
-&__icon {
+  &__icon {
     fill: currentColor;
-}
+  }
 
-&__link:hover,
-&__link:focus {
+  &__link:hover,
+  &__link:focus {
     color: var(--light-txt-cl);
     background-color: var(--accent-bg-cl);
-}
+  }
 }

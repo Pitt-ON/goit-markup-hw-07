@@ -1,10 +1,11 @@
 .features {
+  @include section(94px, 94px, null);
 
-&__list {
+  &__list {
     --items: 4;
-}
+  }
 
-&__wrap {
+  &__wrap {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -12,9 +13,9 @@
     border-radius: 4px;
     margin-bottom: 30px;
     background-color: var(--team-bg-cl);
-}
+  }
 
-&__title {
+  &__title {
     margin-bottom: 10px;
     font-weight: 700;
     font-size: 14px;
@@ -22,12 +23,12 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--basic-txt-cl);
-}
+  }
 
-&__text {
+  &__text {
     font-size: 14px;
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
     color: var(--secondary-txt-cl);
-}
+  }
 }

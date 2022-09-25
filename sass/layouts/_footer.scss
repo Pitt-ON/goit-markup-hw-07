@@ -1,21 +1,18 @@
 .footer {
-    background: var(--hdr-ftr-bg-cl);
-    padding-top: 60px;
-    padding-bottom: 60px;
+  @include section(60px, 60px, var(--hdr-ftr-bg-cl));
 
-
-&__logo {
+  &__logo {
     display: block;
     margin-bottom: 20px;
-}
+  }
 
-&__container {
+  &__container {
     display: flex;
     align-items: baseline;
-}
+  }
 }
 
 .foofer__wrap {
-    min-width: 231px;
-    margin-right: 70px;
+  min-width: 231px;
+  margin-right: 70px;
 }
