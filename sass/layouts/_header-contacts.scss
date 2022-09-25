@@ -11,9 +11,8 @@
   &__link {
     @extend %link;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include flex(flex, center, center);
+
     gap: 10px;
     padding-top: 32px;
     padding-bottom: 32px;

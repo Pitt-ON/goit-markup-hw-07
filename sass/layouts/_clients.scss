@@ -28,9 +28,8 @@
   &__link {
     @extend %link;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include flex(flex, center, center);
+
     border: 1px solid var(--icon-cl);
     border-radius: 4px;
     width: 100%;
