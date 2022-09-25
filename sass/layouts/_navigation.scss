@@ -1,10 +1,14 @@
 .nav__list {
+  @extend %list;
+
   display: flex;
   align-items: center;
   gap: 50px;
 }
 
 .nav__link {
+  @extend %link;
+
   position: relative;
   display: block;
   padding-top: 32px;

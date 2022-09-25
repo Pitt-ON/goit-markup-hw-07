@@ -11,6 +11,10 @@
     color: var(--basic-txt-cl);
   }
 
+  &__list {
+    @extend %list;
+  }
+
   &__thumb {
     position: relative;
   }

@@ -1,4 +1,6 @@
 .socials {
+  @extend %list;
+
   display: flex;
   justify-content: center;
   gap: 10px;
@@ -9,6 +11,8 @@
   }
 
   &__link {
+    @extend %link;
+
     @include flex(flex, center, center);
     // display: flex;
     // align-items: center;

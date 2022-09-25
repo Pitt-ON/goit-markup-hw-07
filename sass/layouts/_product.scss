@@ -1,5 +1,11 @@
 .product {
+  &__list {
+    @extend %list;
+  }
+
   &__link {
+    @extend %link;
+
     display: block;
 
     transition: box-shadow var(--animation);

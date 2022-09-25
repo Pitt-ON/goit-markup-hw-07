@@ -12,6 +12,8 @@
   }
 
   &__list {
+    @extend %list;
+
     --items: 4;
   }
 
