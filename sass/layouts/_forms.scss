@@ -88,9 +88,8 @@
   }
 
   &__agreement {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include flex(flex, center, center);
+
     gap: 7px;
 
     margin-bottom: 30px;
