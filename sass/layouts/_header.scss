@@ -1,15 +1,14 @@
 .header {
-    border-bottom: var(--header-brd-cl);
+  border-bottom: $header-brd-cl;
 
-
-&__container {
+  &__container {
     display: flex;
     align-items: center;
-}
+  }
 
-&__logo {
+  &__logo {
     margin-right: 93px;
     padding-top: 24px;
     padding-bottom: 24px;
-}
+  }
 }

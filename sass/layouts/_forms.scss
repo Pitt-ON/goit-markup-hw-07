@@ -27,7 +27,7 @@
     font-size: 12px;
     line-height: calc(14 / 12);
     letter-spacing: 0.01em;
-    color: var(--secondary-txt-cl);
+    color: $secondary-txt-cl;
   }
 
   &__input {
@@ -40,12 +40,12 @@
     cursor: pointer;
     outline: transparent;
 
-    transition: border-color var(--animation);
+    transition: border-color $animation;
   }
 
   &__input:hover,
   &__input:focus {
-    border-color: var(--accent-bg-cl);
+    border-color: $accent-bg-cl;
   }
 
   &__icon {
@@ -53,12 +53,12 @@
     top: 50%;
     left: 12px;
 
-    transition: fill var(--animation);
+    transition: fill $animation;
   }
 
   &__input:hover + &__icon,
   &__input:focus + &__icon {
-    fill: var(--accent-bg-cl);
+    fill: $accent-bg-cl;
   }
 
   &__message {
@@ -76,12 +76,12 @@
     line-height: calc(14 / 12);
     letter-spacing: 0.01em;
 
-    transition: border-color var(--animation);
+    transition: border-color $animation;
   }
 
   &__message:hover,
   &__message:focus {
-    border-color: var(--accent-bg-cl);
+    border-color: $accent-bg-cl;
   }
 
   &__message::placeholder {
@@ -101,7 +101,7 @@
 
   &__checked {
     opacity: 0;
-    transition: opasity var(--animation);
+    transition: opasity $animation;
   }
 
   &__checkbox:checked + &__check &__checked {
@@ -110,7 +110,7 @@
 
   &__unchecked {
     opacity: 1;
-    transition: opasity var(--animation);
+    transition: opasity $animation;
   }
 
   &__checkbox:checked + &__check &__unchecked {
@@ -118,7 +118,7 @@
   }
 
   &__checkbox:focus + &__check {
-    fill: var(--accent-bg-cl);
+    fill: $accent-bg-cl;
     outline: 2px solid black;
     outline-offset: 1px;
     border-radius: 1px;
@@ -128,7 +128,7 @@
     font-size: 14px;
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
-    color: var(--secondary-txt-cl);
+    color: $secondary-txt-cl;
 
     user-select: none;
   }
@@ -136,20 +136,20 @@
   &__link {
     @extend %link;
 
-    color: var(--accent-txt-cl);
+    color: $accent-txt-cl;
   }
 
   &__btn {
     display: block;
     margin: 0 auto;
     width: 200px;
-    background-color: var(--accent-bg-cl);
+    background-color: $accent-bg-cl;
 
-    transition: background-color var(--animation);
+    transition: background-color $animation;
   }
 
   &__btn:hover,
   &__btn:focus {
-    background-color: var(--accent-hdr-cl);
+    background-color: $accent-hdr-cl;
   }
 }

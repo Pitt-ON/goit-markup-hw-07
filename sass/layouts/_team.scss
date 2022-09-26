@@ -1,5 +1,5 @@
 .team {
-  @include section(94px, 94px, var(--team-bg-cl));
+  @include section(94px, 94px, $team-bg-cl);
 
   &__title {
     margin-bottom: 50px;
@@ -8,17 +8,17 @@
     line-height: calc(42 / 36);
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--basic-txt-cl);
+    color: $basic-txt-cl;
   }
 
   &__list {
     @extend %list;
 
-    --items: 4;
+    $items: 4;
   }
 
   &__item {
-    background: var(--basic-bg-cl);
+    background: $basic-bg-cl;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
   }
@@ -34,7 +34,7 @@
     line-height: calc(19 / 16);
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--basic-txt-cl);
+    color: $basic-txt-cl;
   }
 
   &__profession {
@@ -42,7 +42,7 @@
     line-height: calc(19 / 16);
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--secondary-txt-cl);
+    color: $secondary-txt-cl;
     margin-bottom: 16px;
   }
 }

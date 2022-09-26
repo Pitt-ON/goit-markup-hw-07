@@ -1,5 +1,5 @@
 .footer {
-  @include section(60px, 60px, var(--hdr-ftr-bg-cl));
+  @include section(60px, 60px, $hdr-ftr-bg-cl);
 
   &__logo {
     display: block;

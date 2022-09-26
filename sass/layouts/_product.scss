@@ -8,7 +8,7 @@
 
     display: block;
 
-    transition: box-shadow var(--animation);
+    transition: box-shadow $animation;
   }
 
   &__link:hover,
@@ -37,7 +37,7 @@
 
     background-color: rgba(33, 150, 243, 0.9);
 
-    transition: transform var(--animation);
+    transition: transform $animation;
   }
 
   &__link:hover &__overlay,
@@ -49,14 +49,14 @@
     font-size: 18px;
     line-height: calc(28 / 18);
     letter-spacing: 0.03em;
-    color: var(--light-txt-cl);
+    color: $light-txt-cl;
   }
 
   &__desc {
     padding: 20px 24px;
-    border-left: var(--portfolio-brd-cl);
-    border-right: var(--portfolio-brd-cl);
-    border-bottom: var(--portfolio-brd-cl);
+    border-left: $portfolio-brd-cl;
+    border-right: $portfolio-brd-cl;
+    border-bottom: $portfolio-brd-cl;
   }
 
   &__name {
@@ -65,13 +65,13 @@
     font-size: 18px;
     line-height: calc(36 / 18);
     letter-spacing: 0.06em;
-    color: var(--basic-txt-cl);
+    color: $basic-txt-cl;
   }
 
   &__filter {
     font-size: 16px;
     line-height: calc(30 / 16);
     letter-spacing: 0.03em;
-    color: var(--secondary-txt-cl);
+    color: $secondary-txt-cl;
   }
 }

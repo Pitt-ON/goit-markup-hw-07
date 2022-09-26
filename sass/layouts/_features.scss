@@ -13,7 +13,7 @@
     height: 120px;
     border-radius: 4px;
     margin-bottom: 30px;
-    background-color: var(--team-bg-cl);
+    background-color: $team-bg-cl;
   }
 
   &__title {
@@ -23,13 +23,13 @@
     line-height: calc(16 / 14);
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--basic-txt-cl);
+    color: $basic-txt-cl;
   }
 
   &__text {
     font-size: 14px;
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
-    color: var(--secondary-txt-cl);
+    color: $secondary-txt-cl;
   }
 }

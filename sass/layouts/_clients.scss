@@ -8,7 +8,7 @@
     line-height: calc(42 / 36);
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--basic-txt-cl);
+    color: $basic-txt-cl;
   }
 
   &__list {
@@ -19,7 +19,7 @@
   }
 
   &__item {
-    // @include item(5, var(--gap), 6);
+    // @include item(5, $interval), 6);
     width: 170px;
     height: 92px;
     --items: 6;
@@ -30,14 +30,14 @@
 
     @include flex(flex, center, center);
 
-    border: 1px solid var(--icon-cl);
+    border: 1px solid $icon-cl;
     border-radius: 4px;
     width: 100%;
     height: 100%;
-    color: var(--icon-cl);
+    color: $icon-cl;
     outline: transparent;
 
-    transition: color var(--animation), border-color var(--animation);
+    transition: color $animation, border-color $animation;
   }
 
   &__icon {
@@ -46,7 +46,7 @@
 
   &__link:hover,
   &__link:focus {
-    color: var(--accent-txt-cl);
-    border-color: var(--accent-bg-cl);
+    color: $accent-txt-cl;
+    border-color: $accent-bg-cl;
   }
 }

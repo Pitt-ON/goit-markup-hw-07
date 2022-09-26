@@ -1,9 +1,9 @@
 .flex {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--indent);
+  gap: $indent;
 
   &__item {
-    flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
+    flex-basis: calc((100% - $indent * $items - 1)) / $items);
   }
 }

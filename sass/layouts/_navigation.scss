@@ -17,17 +17,17 @@
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
-  color: var(--basic-txt-cl);
+  color: $basic-txt-cl;
 
-  transition: color var(--animation);
+  transition: color $animation;
 
   &:hover,
   &:focus {
-    color: var(--accent-txt-cl);
+    color: $accent-txt-cl;
   }
 
   &--current {
-    color: var(--accent-txt-cl);
+    color: $accent-txt-cl;
 
     &::after {
       content: '';
@@ -37,7 +37,7 @@
       margin-bottom: -1.5%;
       width: 100%;
       height: 4px;
-      background-color: var(--accent-bg-cl);
+      background-color: $accent-bg-cl;
       border-radius: 2px;
       box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     }

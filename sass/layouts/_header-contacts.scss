@@ -20,14 +20,14 @@
     font-size: 14px;
     line-height: calc(16 / 14);
     letter-spacing: 0.02em;
-    color: var(--secondary-txt-cl);
+    color: $secondary-txt-cl;
 
-    transition: color var(--animation);
+    transition: color $animation;
   }
 
   &__link:hover,
   &__link:focus {
-    color: var(--accent-txt-cl);
+    color: $accent-txt-cl;
   }
 
   &__icon {

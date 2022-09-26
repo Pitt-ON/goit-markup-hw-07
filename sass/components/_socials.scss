@@ -22,17 +22,17 @@
   }
 
   &__link--color {
-    color: var(--icon-cl);
-    background-color: var(--basic-bg-cl);
+    color: $icon-cl;
+    background-color: $basic-bg-cl;
 
-    transition: color var(--animation), background-color var(--animation);
+    transition: color $animation, background-color $animation;
   }
 
   &__link-footer--color {
-    color: var(--light-txt-cl);
+    color: $light-txt-cl;
     background-color: #ffffff1a;
 
-    transition: background-color var(--animation);
+    transition: background-color $animation;
   }
 
   &__icon {
@@ -41,7 +41,7 @@
 
   &__link:hover,
   &__link:focus {
-    color: var(--light-txt-cl);
-    background-color: var(--accent-bg-cl);
+    color: $light-txt-cl;
+    background-color: $accent-bg-cl;
   }
 }
