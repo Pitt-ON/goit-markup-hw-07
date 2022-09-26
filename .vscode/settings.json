@@ -25,14 +25,14 @@
       // {
       //   "scope": ["entity.other.attribute-name.html"],
       //   "settings": {
-      //     "foreground": "#c559cd"
+      //     "foreground": "#a9a9ea"
       //   }
       // },
       // colour of class names
       // {
       //   "scope": ["string.quoted.double.html", "entity.other.attribute-name.class.css"],
       //   "settings": {
-      //     "foreground": "#1e9328"
+      //     "foreground": "#3f8745"
       //   }
       // },
        // text comment

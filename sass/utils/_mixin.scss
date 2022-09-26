@@ -1,16 +1,3 @@
-@mixin list($d: flex, $gap: var(--gap), $jc: null, $ai: null, $fd: null, $fw: null) {
-  display: $d;
-  gap: $gap;
-  justify-content: $jc;
-  align-items: $ai;
-  flex-direction: $fd;
-  flex-wrap: $fw;
-}
-
-@mixin item($q-gap, $gap, $q-item) {
-  flex-basis: calc((100% - #{$q-gap} * #{$gap}) / #{$q-item});
-}
-
 @mixin section($pt, $pb, $bgc) {
   padding-top: $pt;
   padding-bottom: $pb;
@@ -23,11 +10,15 @@
   align-items: $ai;
 }
 
-@mixin font($ff, $fs, $fw, $lh, $ls, $fc) {
-  font-family: $ff;
-  font-size: $fs;
-  font-weight: $fw;
-  line-height: $lh;
-  letter-spacing: $ls;
-  color: $fc;
-}
+// @mixin font($ff, $fs, $fw, $lh, $ls, $fc) {
+//   font-family: $ff;
+//   font-size: $fs;
+//   font-weight: $fw;
+//   line-height: $lh;
+//   letter-spacing: $ls;
+//   color: $fc;
+// }
+
+// @mixin item($q-gap, $gap, $q-item) {
+//   flex-basis: calc((100% - #{$q-gap} * #{$gap}) / #{$q-item});
+// }
