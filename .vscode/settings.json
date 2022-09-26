@@ -19,44 +19,5 @@
   "liveSassCompile.settings.autoprefix": ["> 1%", "last 2 versions"],
   "liveServer.settings.port": 5501
 
-  "editor.tokenColorCustomizations": {
-    "textMateRules": [
-      // colour of attributes
-      // {
-      //   "scope": ["entity.other.attribute-name.html"],
-      //   "settings": {
-      //     "foreground": "#a9a9ea"
-      //   }
-      // },
-      // colour of class names
-      // {
-      //   "scope": ["string.quoted.double.html", "entity.other.attribute-name.class.css"],
-      //   "settings": {
-      //     "foreground": "#3f8745"
-      //   }
-      // },
-       // text comment
-      {
-        "scope": ["comment"],
-        "settings": {
-          "fontStyle": "italic",
-          "foreground": "#d4d447"
-        }
-      },
-      // colour of start quotes
-      {
-        "scope": ["punctuation.definition.string.begin.html"],
-        "settings": {
-          "foreground": "#ff0000"
-        }
-      },
-      // colour of end quotes
-      {
-        "scope": ["punctuation.definition.string.end.html"],
-        "settings": {
-          "foreground": "#ff0000"
-        }
-      }
-    ]
-  },
+
 }
