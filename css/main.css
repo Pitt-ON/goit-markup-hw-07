@@ -81,7 +81,7 @@ body {
   /* outline: 1px solid red; */
 }
 
-.grid {
+.flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -89,7 +89,7 @@ body {
       flex-wrap: wrap;
   gap: var(--indent);
 }
-.grid__item {
+.flex__item {
   -ms-flex-preferred-size: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
       flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
 }
