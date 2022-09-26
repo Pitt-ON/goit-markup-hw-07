@@ -17,6 +17,10 @@
     margin-bottom: 10px;
   }
 
+  &__field:last-child {
+    margin-bottom: 0;
+  }
+
   &__lable {
     display: block;
     margin-bottom: 4px;

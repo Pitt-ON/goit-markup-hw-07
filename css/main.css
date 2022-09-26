@@ -246,6 +246,9 @@ body {
   display: block;
   margin-bottom: 10px;
 }
+.register-form__field:last-child {
+  margin-bottom: 0;
+}
 .register-form__lable {
   display: block;
   margin-bottom: 4px;
